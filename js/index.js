@@ -32,9 +32,9 @@ function insertNumber(number) {
     var presentValue = $("#display").val();
     console.log(number)
     console.log(presentValue.includes("."))
-    if(number == "." && presentValue.includes(".")){
-      return;
-    }
+    // if(number == "." && presentValue.includes(".")){
+    //   return;
+    // }
     $("#display").val(existingNumber + number);
   }
 }
